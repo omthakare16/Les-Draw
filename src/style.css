@@ -43,6 +43,9 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 #cleaner,#pen,#clear{
   font-size:30px;
 }
+#catppuccin{
+  font-size:20px;
+}
 #pickr{
   height:60px;
   width:60px;
@@ -54,7 +57,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
   font-size:25px;
 }
 #size{
-   margin-top: 25px; 
+   margin-top: 15px; 
 }
 
 @media screen and (max-width: 480px) {
