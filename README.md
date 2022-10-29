@@ -1,4 +1,4 @@
 # Les-Draw
 A Basic Drawing Tool.
 
--with [Catpuccin](https://github.com/catppuccin) rainbow effect because catppucin is vibe. 
+-with [Catppuccin](https://github.com/catppuccin) rainbow effect because catppuccin is vibe. 
