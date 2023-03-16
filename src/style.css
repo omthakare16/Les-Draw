@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 body{
   background-color: #1e495153;
 }
 h1{
-  text-align:center
+  font-size: 3vw;
+  overflow: hidden;
+  text-align:center;
+  font-family: 'Concert One', cursive;
+  color: coral;
+  text-shadow: 2px 2px 2px rgb(38, 35, 35);
 }
+
 #container {
   /* scale: 1.1; */
+  overflow: hidden;
   position: absolute;
   left: 40%;
   border-radius: 15px;
@@ -36,7 +45,7 @@ h1{
   margin-top: 100px;
   margin-left: 40px;
   border-radius: 10px;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   gap:40px;
   align-items: center;
 }
@@ -46,11 +55,13 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 #catppuccin{
   font-size:20px;
 }
+
 #pickr{
+  display: inline-block;
+  overflow: hidden;
   height:60px;
   width:60px;
-  border-radius: 100%;
-  
+  border-radius: 50%;
 }
 .sizer{
   text-align: center;
@@ -81,7 +92,6 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
     height:50px;
     width:50px;
     border-radius: 100%;
-    
   }
 
 }
